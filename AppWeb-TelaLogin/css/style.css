@@ -1,0 +1,67 @@
+/*Geral*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    color: #333;
+    box-sizing: border-box;
+}
+
+/*Tela de Login*/
+
+#login{
+    background-image: url("../imagens/fundo-login01.jpg");
+    background-color: #333;
+    background-position: center;
+    background-size: cover;
+    margin-top: 17%;
+}
+
+
+#container-login{
+    max-width: 25%;
+    margin: 10rem auto;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.login-title{
+    margin-bottom: 1.5rem;
+}
+
+.login-title h1{
+    font-family: Helvetica;
+    color: #ccc;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#Input-login{
+    margin-bottom: .5rem;
+    width: 80%;
+    height: 25px;
+    padding-left: .2rem;
+}
+
+#Input-senha{
+    margin-bottom: .5rem;
+    width: 80%;
+    height: 25px;
+    padding-left: .2rem;
+
+}
+
+#Input-submit{
+    margin-top: .9rem;
+    width: 40%;
+    height: 30px;
+    padding-left: .2rem;
+}
